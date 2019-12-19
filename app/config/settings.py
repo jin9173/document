@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'many_to_many.apps.ManyToManyConfig',
     'many_to_one.apps.ManyToOneConfig',
     'myapp.apps.MyappConfig',
+    'one_to_one.apps.OneToOneConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',

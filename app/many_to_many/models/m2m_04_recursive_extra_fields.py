@@ -22,7 +22,7 @@ class InstagramUser(models.Model):
     following = models.ManyToManyField(
         'self',
         through='Relation',
-        relation_name='followers',
+        related_name='followers',
         symmetrical=False,
     )
 

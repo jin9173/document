@@ -36,6 +36,8 @@ INSTALLED_APPS = [
     'myapp.apps.MyappConfig',
     'one_to_one.apps.OneToOneConfig',
 
+    'inheritance.abstract.apps.AbstractConfig',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -43,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # python manage.py shell_plus 실행 위해 필요
     'django_extensions',
 ]
 
